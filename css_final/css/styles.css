@@ -1,0 +1,542 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Light.ttf) format(truetype);
+}
+
+.banner__title{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 80px;
+  font-family: 'roboto';
+  margin-bottom: 30px;
+}
+
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Light.ttf) format(truetype);
+}
+
+.section {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.section--light {
+  background-color: #fff;
+  color: #333;
+}
+
+.section--dark {
+  background-color: #252525;
+  color: #fff;
+}
+
+.section--light + section--light {
+  padding-top: 0;
+}
+
+.section--dark + section--dark {
+  padding-top:0;
+}
+
+.banner__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+width: 524.85px;
+height: 64px;
+}
+
+
+.logo {
+  padding-top: 23.38px;
+  padding-bottom: 22.38px;
+  margin-left: 152px;
+  font-size: 60px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 200;
+}
+
+.header {
+  background-color: #EF6039; 
+
+}
+
+.button--white {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 36px;
+  gap: 10px;
+  padding-top: 17px;
+  padding-bottom:16px;
+  background: #fff;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #EF6039;
+  text-align-last: center;
+}
+
+.banner__content .banner__title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ .banner__content .banner__paragraph {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 523px;
+height: 68px;
+}
+
+
+.button--orange {
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 36px;
+  gap: 10px;
+  margin-top: 30px;
+  background: #EF6039;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #fff;
+  text-align-last: center;
+}
+
+.banner {
+  color: #fff;
+  position: relative;
+  padding-top: 202px;
+  padding-bottom: 200px;
+}
+
+.banner__image {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner__content {
+  margin-left: 152px;
+  padding-top: 202px;
+  position: relative;
+  z-index: 1;
+}
+
+ .flex__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 600px;
+  padding: 1em;
+  max-width: 70rem;
+  align-items: center;
+}
+.box {
+  display:inline-block;
+  margin-right: 50px;
+}
+
+.box--2{
+  width: 636px;
+ height: 950px;
+}
+
+.box--1 {
+  margin-right: 0;
+}
+
+
+
+.about__image {
+  position: relative;
+  width: 636px;
+  height: 950px;
+}
+
+
+
+
+.about__wrapper  {
+  padding-top: 224px;
+  float: right;
+  padding-left: 134px;
+  font: roboto;
+}
+
+.about .banner__title {
+  width: 526px;
+  height: 129px;
+  padding-top: 30px;
+
+}
+
+.about .banner__paragraph{
+  margin-top: 30px;
+
+}
+
+.banner__subparagraph {
+  margin-top: 30px;
+  color: #33333380;
+  height: 96px;
+  width: 524px;
+  font-family: 'Roboto';
+  font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+
+
+}
+
+
+.banner__subparagraph {
+  margin-top: 30px;
+}
+
+.team {
+  margin-left: 152px;
+}
+
+.team .banner__title {
+  margin-top: 40px;
+  height: 128px;
+  width: 306px;
+ 
+
+}
+
+.person-wrapper {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.person__title {
+  margin-top: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+.person__name {
+  margin-top: 12px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+}
+
+.person{
+  display: inline-block;
+  margin-right: 24px;
+}
+
+
+
+person--3 {
+  margin-right: 0;
+}
+
+.person-wrapper__button-wrapper {
+  margin-top: 142px;
+  align-content:  center;
+}
+.button--whiteorange{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 14px 36px;
+gap: 10px;
+padding-top: 17px;
+padding-bottom:16px;
+background: #fff;
+border-radius: 24px;
+text-decoration: none;
+color: #EF6039;
+text-align-last: center;
+border:  1px solid #EF6039;
+height: 19px;
+width: 58px;
+text-align: center;
+
+
+}
+
+.person-wrapper__button-wrapper{
+  align-items: center;
+}
+
+.button--orangewhite{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 36px;
+  gap: 10px;
+  padding-top: 17px;
+  padding-bottom:16px;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #fff;
+  text-align-last: center;
+  border:  1px solid #FFFFFF80;
+  height: 19px;
+  width: 66px;
+  align-self: center;
+  margin-left: 122px;
+  margin-top: 50px;
+  
+  }
+
+
+.news .banner__title{
+  margin-left: 152px;
+  height: 128px;
+width: 430px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.news .icon-title__icon{
+  margin-left: 152px;
+}
+
+date-wrapper { 
+  margin-top: 60px;
+}
+
+.date--1 {
+  margin-left: 152px;
+}
+.date {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.date__title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color:#FFFFFF80;
+margin-top: 22px;
+}
+
+.date__paragraph {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+color: #fff;
+margin-top: 12px;
+width: 416px;
+height: 74px;
+}
+
+.button--black{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 36px;
+  gap: 10px;
+  padding-top: 17px;
+  padding-bottom:16px;
+  border-radius: 24px;
+  text-decoration: none;
+  width: 78px;
+  height: 19px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF80;
+  margin-top: 36px;
+  }
+
+.cta {
+  background-color: #EF6039;
+}
+ 
+.flex__contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 600px;
+  padding: 1em;
+  max-width: 70rem;
+  align-items: center;
+}
+
+
+.cta__image {
+  position: relative;
+}
+
+ .cell {
+  display: inline-block;
+  
+ }
+
+ .cta .banner__title{
+  color: #fff;
+  width: 457px;
+height: 192px;
+padding-bottom: 50px;
+margin-left: 122px;
+ }
+
+ 
+.footer .container{
+  display: flexbox;
+  align-items: center;
+}
+
+.footer .logo{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+}
+.footer-left{
+  position: absolute;
+  
+  margin-top: 0;
+}
+
+.footer-right {
+  position: static;
+  margin-top: 160px;
+  margin-left: 320px;
+}
+
+.column{
+  display: inline-table;
+  margin-right: 240px;
+}
+
+.column--3{
+  margin-right: 0;
+}
+
+.column__title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #EF6039;
+margin-bottom: 30px;
+}
+
+.column__item {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.column__item li + li {
+  margin-bottom: 8px;
+}
+
+.column__item a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.footer__line{
+  width: 1296px;
+height: 1px;
+  background-color: #333;
+  border: 0;
+  margin-top: 48px;
+}
+
+.copyright{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.502972);
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.header .container{
+  display: flex;
+  align-items: center;
+  background-color: #EF6039;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.main-menu {
+  display:flex;
+}
+
+.main-menu li + li {
+  margin-left: 60px;
+}
+
+.main-menu a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .button--white {
+  margin-left:60px
+}
+
+icon-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+icon-title__icon {
+  height: 48px;
+  width: 48px;
+}
+
+icon-title__text {
+  font-size: 18px;
+  font: weight 400px; ;
+  line-height: 32px;
+  text-transform: uppercase ;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.icon-title--orange {
+  color:#EF6039;
+}
+
+.banner__paragraph{
+
+}
