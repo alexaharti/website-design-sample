@@ -24,12 +24,16 @@ The Landing Page is usually designed to captivate visitors and convert them into
 - Footer:
 The footer appears on every website and includes the menu from the first page for easy navigation. Moreover, it shows the company's offered services with links to their respective pages. Social media links represented by icons encourage visitors to connect with the company on different platforms.
 
-## Table of Contents
+## Contents
  ### css folder:
  - bootstrap-grid.css : It makes it possible for the web page to detect the visitor's screen size and orientation and automatically adapt the display accordingly.
  - reset.css : This style sheet is a list of rules that 'reset' all of the default browser styles.
  - styles.css :  It helps define the appearance and layout of a website's elements. It works in conjunction with the HTML structure of the webpage to apply visual styles.
 
+  ### fonts folder:
+  It includes all the downloaded fonts used for building this design
+  ### images folder:
+  This folder keeps all the images used on this website design. They can be replaced according to company's needs.
    
 
    
