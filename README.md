@@ -37,4 +37,16 @@ The footer appears on every website and includes the menu from the first page fo
   ### index.html file:
   It is a text-based document that contains the structure and content of a web page. The HTML file provides instructions to the web browser on how to display the web page to the visitors.
 
+## Installing and Usage
+
+- press the green 'Code' button on the top right of the repository
+- copy the link of the repository
+- choose a file on your computer and click right then press 'Git Bash Here' (the git terminal will open)
+- type 'git clone' and paste the link of the repository in the terminal 
+
+after pressing Enter, the project should appear succesfully in the chosen file from where you can acces it in VS Code.
+
+- once you've opened it in VS code, click right on 'index.html' and press 'Reveal in File Explorer'
+
+
    
