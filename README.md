@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This Website Design Sample Project is suitable for any company. The website consists of six pages, each with a unique design, providing great understanding of the company and its offerings for visitors. The project is developed using HTML and CSS, making it easy to integrate into any company's needs.
+This Website Design Sample Project is suitable for any company. The website consists of six pages, each with a unique design, providing great understanding of the company and its offerings for visitors. The project is developed using HTML and CSS, making it easy to integrate into any company's standards.
 
 Pages:
 
