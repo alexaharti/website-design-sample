@@ -48,5 +48,5 @@ after pressing Enter, the project should appear succesfully in the chosen file f
 
 - once you've opened it in VS code, click right on 'index.html' and press 'Reveal in File Explorer'
 
-
+In case you have not installed Git yet, follow the instructions from this link https://phoenixnap.com/kb/how-to-install-git-windows
    
