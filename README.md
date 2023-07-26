@@ -34,6 +34,7 @@ The footer appears on every website and includes the menu from the first page fo
   It includes all the downloaded fonts used for building this design
   ### images folder:
   This folder keeps all the images used on this website design. They can be replaced according to company's needs.
-   
+  ### index.html file:
+  It is a text-based document that contains the structure and content of a web page. The HTML file provides instructions to the web browser on how to display the web page to the visitors.
 
    
